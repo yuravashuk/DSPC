@@ -18,6 +18,10 @@ pip install scipy
 
 pip install pyaudio
 
+pip install librosa
+
+pip install -U scikit-learn
+
 ```
 
 ## Resources, Documentation & Links:
@@ -34,3 +38,7 @@ Matplotlib documentation – https://matplotlib.org/stable/index.html
 Scipy documentation - https://docs.scipy.org/doc/scipy/ 
 
 PyAudio documentation - https://people.csail.mit.edu/hubert/pyaudio/docs/ 
+
+Librosa documentation - https://librosa.org/doc/latest/index.html
+
+Scikit-learn - https://scikit-learn.org/stable/index.html 
