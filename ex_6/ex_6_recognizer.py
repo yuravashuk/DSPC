@@ -26,8 +26,8 @@ def classify_audio(file_path, model_path='model.joblib', encoder_path='encoder.j
     return label
 
 # Usage:
-file_path = './ex_6/data/testing/notepad_test.wav'
-model_path = './ex_6/data/models/model.joblib'
-encoder_path = './ex_6/data/models/encoder.joblib'
+file_path = './data/testing/notepad_test.wav'
+model_path = './data/models/model.joblib'
+encoder_path = './data/models/encoder.joblib'
 
 print(classify_audio(file_path=file_path, model_path=model_path, encoder_path=encoder_path))

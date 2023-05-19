@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 
 # Directory where your .wav files are organized in subfolders
-main_directory = './ex_6/data/training/'
+main_directory = './data/training/'
 
 # List for features and labels
 features = []
@@ -49,5 +49,5 @@ model = RandomForestClassifier()
 model.fit(features_train, labels_train)
 
 # Save model and encoder
-joblib.dump(model, 'ex_6/data/models/model.joblib')
-joblib.dump(encoder, 'ex_6/data/models/encoder.joblib')
+joblib.dump(model, '/data/models/model.joblib')
+joblib.dump(encoder, '/data/models/encoder.joblib')
